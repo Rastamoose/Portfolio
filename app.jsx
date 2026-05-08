@@ -184,7 +184,7 @@ function About() {
     <section className="section" id="about">
       <SectionHead num="00" title="about" />
       <p className="about-prose">
-        I'm Harris — a computer science student at UCL. I tend to work on
+        I'm Harris — an incoming computer science student at UCL. I tend to work on
 	  projects around <b> machine learning</b>, <b> graphics</b> or really just whatever catches my interest
         I like building from first principles and messing around with what goes on at the lowest level.
       </p>
