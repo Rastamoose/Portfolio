@@ -123,7 +123,7 @@ function Sidebar() {
         <span className="com">/*</span> portfolio <span className="com">*/</span>
       </div>
       <h1 className="side-name">Harris</h1>
-      <div className="side-role">CS · ML · SYSTEMS</div>
+      <div className="side-role">BUILDER · STUDENT</div>
       <p className="side-bio">
         Computer science student. <b>Samsung Solve for Tomorrow</b> winner.
         ML systems, low-level graphics, occasional cryptography.
@@ -143,10 +143,10 @@ function Sidebar() {
       </p>
 
       <div className="side-social">
-        <a href="#">github</a>
-        <a href="#">linkedin</a>
+        <a href="https://github.com/Rastamoose" target="_blank" rel="noreferrer">github</a>
+        <a href="https://www.linkedin.com/in/harrisasif/" target="_blank" rel="noreferrer">linkedin</a>
         <a href="mailto:harrisasif1212@gmail.com">email</a>
-        <a href="#">cv.pdf</a>
+        <a href="/cv.pdf" target="_blank" rel="noreferrer">cv.pdf</a>
       </div>
     </aside>
   );
