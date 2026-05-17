@@ -18,20 +18,19 @@ export const SANOBAND = {
   ],
   visual: {
     label: "fig.01 · pitching sanoband — wearable + companion app",
-    tag: "16:9",
     placeholder: "sanoband · device + app",
     cornerText: "biosignal · ml inference · real-time intervention",
     cornerAccent: "samsung 2025",
   },
   metrics: [
-    { num: "£10K",  label: "samsung award" },
+    { num: "£10K",  label: "samsung funding" },
     { num: "100+",  label: "user studies" },
     { num: "UK",    label: "national winner" },
     { num: "16–18", label: "age category" },
   ],
   ctas: [
-    { label: "article", href: "#", primary: true },
-    { label: "pitchdeck",      href: "#", primary: false },
+    {label: "project",      href: "https://www.samsung.com/uk/solvefortomorrow/highlights/articles/sft-2025-winners-team-sanoband-16-18/", primary: true },
+    { label: "article", href: "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/three-teens-set-out-tackle-32082508", primary: false},
   ],
 };
 
@@ -41,7 +40,7 @@ export const ACHIEVEMENTS_TIMELINE = [
     label: "Caius Explore Competition",
     desc: "Cambridge — winning paper on Shor's algorithm vs ECC and QKD.",
     thumb: "PAPER",
-    out: "paper ↗",
+    out: "-",
     detail: {
       tag: "what · ",
       body: "Authored a winning paper analysing the impact of Shor's Algorithm on elliptic-curve cryptography and quantum key distribution methods",
@@ -53,7 +52,8 @@ export const ACHIEVEMENTS_TIMELINE = [
     label: "IRIS — Best Research Project",
     desc: "RNN classifier on LHC collision data (CERN ATLAS). 97% test accuracy.",
     thumb: "PLOT · CM",
-    out: "publication ↗",
+    out: "award ↗",
+    href: "https://researchinschools.org/iris-award-winners-2024/",
     detail: {
       tag: "what · ",
       body: "Applied Recurrent Neural Networks to classify Higgs Boson events using LHC collision data (97% test accuract); published as the best IRIS Research Project 2024",

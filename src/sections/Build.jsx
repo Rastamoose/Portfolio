@@ -11,7 +11,15 @@ export default function Build() {
       <SectionHead num="02" title="build" role={RENDERER.role} meta={RENDERER.meta} />
       <HighlightCard
         data={RENDERER}
-        visual={<pre className="code-block">{highlightCpp(RENDERER_SNIPPET)}</pre>}
+        visual={<img src="/renderer.png" alt="3D wireframe renderer" 
+          style={{ 
+            maxWidth: "100%", 
+            maxHeight: "100%", 
+            objectFit: "scale-down", 
+            objectPosition: "center center", 
+            display: "block", 
+            borderRadius: "8px" 
+          }} />}
       />
       <div className="timeline-head">
         <span>also shipped</span>

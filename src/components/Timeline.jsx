@@ -14,7 +14,7 @@ export default function Timeline({ rows }) {
             <span className="desc">{e.desc}</span>
           </span>
           <span className="thumb">{e.thumb}</span>
-          <span className="out">{e.out !== "—" ? <a href="#">{e.out}</a> : e.out}</span>
+          <span className="out">{e.href ? <a href={e.href} target="_blank" rel="noopener noreferrer">{e.out}</a> : e.out}</span>
           {e.detail && (
             <div className="tl-detail">
               <div>

@@ -59,7 +59,7 @@ export const BUILD_TIMELINE = [
     label: "Tract — Hack for Gaza",
     desc: "Prototype for tracking missing families in war-zones. Built mapping infra + landing in 48 hours.",
     thumb: "LANDING",
-    out: "site ↗",
+    out: "-",
     detail: {
       tag: "what · ",
       body: "48-hour build for the Hack for Gaza humanitarian hackathon. Mapbox layer over crowdsourced reports, paired with a public landing page.",

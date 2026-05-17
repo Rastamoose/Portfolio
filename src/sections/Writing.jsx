@@ -14,7 +14,7 @@ export default function Writing() {
               <div className="title">{w.title}</div>
               <div className="desc">{w.desc}</div>
             </span>
-            <span className="out"><a href="#">{w.out}</a></span>
+            <span className="out">{w.href ? <a href={w.href} target="_blank" rel="noopener noreferrer">{w.out}</a> : w.out}</span>
           </div>
         ))}
       </div>
