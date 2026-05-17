@@ -274,14 +274,13 @@ a { color: inherit; text-decoration: none; }
   align-items: center;
   flex-wrap: wrap;
 }
-.head-eyebrow .pill {
-  border: 1px solid var(--accent-dim);
-  background: var(--accent-dim);
-  color: var(--accent);
-  padding: 3px 8px;
-  border-radius: 3px;
-  font-size: 9.5px;
-  letter-spacing: 0.12em;
+.head-eyebrow .eyebrow-marker {
+  display: inline-block;
+  width: 2px;
+  height: 14px;
+  background: var(--accent);
+  border-radius: 1px;
+  flex-shrink: 0;
 }
 .head-eyebrow .sep { color: var(--fg-faint); }
 
