@@ -2,7 +2,7 @@ import React from 'react'
 
 export const ABOUT_PROSE = [
   <>
-    I'm Harris — an incoming computer science student at UCL. I tend to work on
+    I'm Harris — a computer science undergrad at UCL. I tend to work on
     projects around <b>machine learning</b>, <b>graphics</b> or really just whatever catches my interest.
     I like building from first principles and messing around with what goes on at the lowest level.
   </>,

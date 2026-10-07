@@ -176,6 +176,8 @@ a { color: inherit; text-decoration: none; }
 }
 .side-social a { transition: color .18s; }
 .side-social a:hover { color: var(--accent); }
+/* ponytail: attribute selector, no extra class in the JSX */
+.side-social a[href$=".pdf"] { color: var(--fg); }
 
 /* ─────────────────────────────────────────────
    main — sections

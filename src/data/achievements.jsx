@@ -36,6 +36,18 @@ export const SANOBAND = {
 
 export const ACHIEVEMENTS_TIMELINE = [
   {
+    year: "2026",
+    label: "Founder — Convyio",
+    desc: "Redwood Founders After Hours (Batch 1) — Jun. 2026–Aug. 2026.",
+    thumb: "FOUNDER",
+    out: "—",
+    detail: {
+      tag: "what · ",
+      body: "One of 20 teams selected for Redwood's 8-week 0→1 incubator; mentored by YC, EF alumni; built and launched Convyio, a team chat where AI coding agents work alongside humans as teammates",
+      pills: ["incubator", "ai agents"],
+    },
+  },
+  {
     year: "2024",
     label: "Caius Explore Competition",
     desc: "Cambridge — winning paper on Shor's algorithm vs ECC and QKD.",

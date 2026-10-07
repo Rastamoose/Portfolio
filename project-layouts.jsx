@@ -31,7 +31,7 @@ const PROJECTS = [
   },
   {
     idx: "04",
-    title: "Tract — Hack for Gaza",
+    title: "Tract — Hackathon Project",
     stack: "next · mapbox · 48hr build",
     out: "site →",
     blurb: "Prototype for tracking missing families in war-zones. Built mapping + UI in 48 hours.",

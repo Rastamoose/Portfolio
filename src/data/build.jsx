@@ -56,13 +56,13 @@ for (auto [i, j] : edges) {
 export const BUILD_TIMELINE = [
   {
     year: "2025",
-    label: "Tract — Hack for Gaza",
+    label: "Tract — Hackathon Project",
     desc: "Prototype for tracking missing families in war-zones. Built mapping infra + landing in 48 hours.",
     thumb: "LANDING",
     out: "-",
     detail: {
       tag: "what · ",
-      body: "48-hour build for the Hack for Gaza humanitarian hackathon. Mapbox layer over crowdsourced reports, paired with a public landing page.",
+      body: "48-hour build for a humanitarian hackathon. Mapbox layer over crowdsourced reports, paired with a public landing page.",
       pills: ["next.js", "mapbox", "48hr build"],
     },
   },
